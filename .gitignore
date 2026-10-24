@@ -1,0 +1,5 @@
+# nothing device-specific should ever land here
+*.key
+*.pem
+*-cert.*
+boot-log-raw.txt
