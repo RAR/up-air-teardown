@@ -23,7 +23,7 @@ Reverse-engineering notes for the **Ubiquiti UniFi Protect Air Quality** sensor
 
 | Doc | Contents |
 |-----|----------|
-| [HARDWARE.md](HARDWARE.md) | Chip IDs, the FFC service port, UART pins |
+| [HARDWARE.md](HARDWARE.md) | Chip IDs, **board photos**, the FFC service port, UART pins |
 | [SERIAL-ACCESS.md](SERIAL-ACCESS.md) | How to reach the console (Linux gotchas, baud, ModemManager) |
 | [CONSOLE.md](CONSOLE.md) | Full console command reference |
 | [SECURITY.md](SECURITY.md) | ESP32 secure-boot / flash-encryption posture; why not to reflash |

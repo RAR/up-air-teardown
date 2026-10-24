@@ -1,6 +1,22 @@
 # Hardware
 
 All IDs read from package markings and confirmed against the boot log where possible.
+Board silkscreen: **UP AIR**, 47.2 × 76.25 mm / 110 × 88 mm, dated **01-07'26**.
+
+## Photos
+
+| | |
+|---|---|
+| ![ESP32 U1 + 40 MHz crystal](images/01-esp32-u1-crystal.jpg) | ![ESP32, PSRAM, Ethernet PHY](images/02-esp32-psram-phy.jpg) |
+| **U1** ESP32-D0WD-V3 (`042026` / `UGL0MDA159`) and `Y1` 40.000 MHz crystal | **U1** ESP32 (top-left), **U3** ESP-PSRAM64H (top-right), **U8** RTL8201F PHY (center) |
+| ![Flash U2 + PSRAM U3](images/03-flash-u2-psram-u3.jpg) | ![Flash U2 close-up](images/04-flash-u2-closeup.jpg) |
+| **U2** GigaDevice `25Q128ESIG` (16 MB flash) + **U3** `ESP-PSRAM64H` | **U2** flash close-up (`E000474` / `PJ2520`) |
+| ![Power buck + silk date](images/05-power-buck-silk-date.jpg) | ![Power QFN near L501](images/06-power-qfn-l501.jpg) |
+| Buck converter (`AWRHWA`) + `2R2` inductor; silk date `01-07'26` | Second power QFN near `L501` / `C402` / `ZD30` (flux residue) |
+| ![Power QFN close-up](images/07-power-qfn-closeup.jpg) | ![J6 FFC service port](images/08-j6-ffc-sw1-esd.jpg) |
+| Power QFN close-up (top mark unreadable) | **J6** 6-pin 0.5 mm FFC service port, `SW1` button, ESD array |
+| ![FFC breakout hookup](images/09-ffc-breakout-hookup.jpg) | |
+| The `FPC-6P 0.5MM` breakout + 6-conductor FFC used to reach the console | |
 
 ## Major components
 
